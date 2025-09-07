@@ -76,19 +76,47 @@
                                 <h2 class="title">Set Up Your Password</h2>
                                 <p>Your security is our top priority. You'll need this to log into your PayDoot account</p>
                             </div>
-                            <form action="#">
+                             <?php
+                                include("conn.php");
+                                
+                                session_start();
+                                $message="";
+                                if(count($_POST)>0) 
+                                {
+                                    $email=$_POST["email"] ;
+                                    $password=$_POST["password"];
+                                    $data = "SELECT * FROM `admin` WHERE `email`='$email' and `password` = '$password'";
+                                    $result =  mysqli_query($conn,$data);
+                                    $row  = mysqli_fetch_array($result);
+                                    if(is_array($row)) {
+                                        $_SESSION["id"] = $row['id'];
+                                        $_SESSION["name"] = $row['name'];
+                                        echo 1;
+                                    
+                                    } else {
+                                        $message = "Invalid Username or Password!";
+                                        echo 0;
+                                    }
+                                    exit();
+                                }
+                            
+                                if(isset($_SESSION["id"])) {
+                                    header("Location:paydoot/home.php");
+                                }
+                            ?>
+                            <form method="POST">
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="single-input">
                                             <label for="email">Enter Your Email ID</label>
-                                            <input type="text" id="email" placeholder="Your email ID here">
+                                            <input type="text" id="email" name="email" placeholder="Your email ID here">
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="single-input ">
-                                            <label for="confirmPass">Confirm Password</label>
+                                            <label for="confirmPass">Password</label>
                                             <div class="password-show d-flex align-items-center">
-                                                <input type="text" class="passInput" id="confirmPass" autocomplete="off" placeholder="Enter Your Password">
+                                                <input type="text" class="passInput" name="password" id="confirmPass" autocomplete="off" placeholder="Enter Your Password">
                                                 <img class="showPass" src="assets/images/icon/show-hide.png" alt="icon">
                                             </div>
                                             <div class="forgot-area text-end">

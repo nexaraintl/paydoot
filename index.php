@@ -606,7 +606,7 @@
     <!-- Personalized In end -->
 
     <!-- Testimonials In start -->
-    <section class="testimonials">
+    <section class="testimonials" style="display:none;">
         <div class="overlay pt-120 pb-120">
             <div class="container wow fadeInUp">
                 <div class="row d-flex justify-content-center">
@@ -724,7 +724,7 @@
     <!-- Testimonials In end -->
 
     <!-- Our Latest Articles In start -->
-    <section class="latest-articles">
+    <section class="latest-articles"  style="display:none;">
         <div class="overlay pt-120 pb-120">
             <div class="container wow fadeInUp">
                 <div class="row d-flex justify-content-center">

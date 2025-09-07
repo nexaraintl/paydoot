@@ -4,7 +4,7 @@ $(function ($) {
   jQuery(document).ready(function () {
 
     // preloader
-    $("#preloader").delay(300).animate({
+    $("#preloader").delay(100).animate({
       "opacity": "0"
     }, 500, function () {
       $("#preloader").css("display", "none");

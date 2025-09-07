@@ -76,18 +76,18 @@
                                 <h2 class="title">Let’s Get Started!</h2>
                                 <p>Please Enter your Email Address to Start your Online Application</p>
                             </div>
-                            <form action="#">
+                            <form id="register_form">
                                 <div class="row">
                                     <div class="col-6">
                                         <div class="single-input">
                                             <label for="fname">First Name</label>
-                                            <input type="text" id="name" placeholder="Jone">
+                                            <input type="text" id="name" name="fname" placeholder="Enter name">
                                         </div>
                                     </div>
                                     <div class="col-6">
                                         <div class="single-input">
-                                            <label for="lname">Last Name</label>
-                                            <input type="text" id="lname" placeholder="Fisher">
+                                            <label for="mobile">Mobile</label>
+                                            <input type="text" id="mobile" name="mobile" placeholder="Enter mobile number">
                                         </div>
                                     </div>
                                 </div>
@@ -95,10 +95,10 @@
                                     <div class="col-12">
                                         <div class="single-input">
                                             <label for="email">Enter Your Email ID</label>
-                                            <input type="text" id="email" placeholder="Your email ID here">
+                                            <input type="email" id="email" name="email" placeholder="Your email ID here">
                                         </div>
                                     </div>
-                                    <div class="col-12">
+                                    <div class="col-12" style="display:none;">
                                         <div class="single-input">
                                             <label for="referral">Someone invited you over?</label>
                                             <input type="text" id="referral" placeholder="Enter the referral code">
@@ -107,6 +107,7 @@
                                     <div class="col-12">
                                         <div class="single-input">
                                             <p>By clicking submit, you agree to <span>PayDoot's Terms of Use, Privacy Policy, E-sign</span> & <span>communication Authorization.</span></p>
+                                            <p>After succesfully created registeration admin will approve the account for login</p>
                                         </div>
                                     </div>
                                 </div>
@@ -135,6 +136,8 @@
     <script src="assets/js/plugin/wow.min.js"></script>
     <script src="assets/js/plugin/plugin.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>
