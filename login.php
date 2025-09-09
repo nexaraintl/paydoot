@@ -97,11 +97,10 @@
                                         $message = "Invalid Username or Password!";
                                         echo 0;
                                     }
-                                    exit();
                                 }
                             
                                 if(isset($_SESSION["id"])) {
-                                    header("Location:paydoot/home.php");
+                                    header("Location:home.php");
                                 }
                             ?>
                             <form method="POST">
