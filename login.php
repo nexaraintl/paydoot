@@ -100,7 +100,7 @@
                                 }
                             
                                 if(isset($_SESSION["id"])) {
-                                    header("Location:home.php");
+                                    header("Location:paydoot/home.php");
                                 }
                             ?>
                             <form method="POST">
