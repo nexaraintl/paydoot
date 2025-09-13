@@ -58,7 +58,10 @@
                     <li class="nav-item">
                       <a class="nav-link" aria-current="page" href="about.php">About Us</a>
                     </li>
-                    <li class="nav-item dropdown main-navbar">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="service.php">Services</a>
+                    </li>
+                    <li class="nav-item dropdown main-navbar" style="display:none">
                       <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-bs-toggle="dropdown"
                         data-bs-auto-close="outside">Services</a>
                       <ul class="dropdown-menu main-menu shadow">
@@ -70,11 +73,11 @@
                     <li class="nav-item">
                         <a class="nav-link" href="product.php">Product</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" style="display:none">
                         <a class="nav-link" href="career-single.php">Career</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="blog-single.php">News & Media</a>
+                        <a class="nav-link" href="blog-single.php" style="display:none">News & Media</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="contact.php">Contact Us</a>

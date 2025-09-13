@@ -104,8 +104,10 @@
                             <div class="icon-box">
                                 <img src="assets/images/icon/need-help-1.png" alt="icon">
                             </div>
-                            <h5>Sales</h5>
-                            <p>info@nexaraintl.com</p>
+                            <h5>Customer Care</h5>
+                            <p>support@paydoot.com</p>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -113,8 +115,10 @@
                             <div class="icon-box">
                                 <img src="assets/images/icon/need-help-2.png" alt="icon">
                             </div>
-                            <h5>Help & Support</h5>
-                            <p>info@nexaraintl.com</p>
+                            <h5>Merchant Support</h5>
+                            <p>merchants@paydoot.com</p>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -122,8 +126,8 @@
                             <div class="icon-box">
                                 <img src="assets/images/icon/need-help-3.png" alt="icon">
                             </div>
-                            <h5>Media & Press</h5>
-                            <p>https://nexaraintl.com/contact</p>
+                            <h5>Address</h5>
+                            <p>93 Avenue, Office No 145 Pune-411022, Maharashtra, India</p>
                         </div>
                     </div>
                 </div>
@@ -133,7 +137,7 @@
     <!-- Need more help In end -->
 
     <!-- FAQs In start -->
-    <section class="faqs-section account">
+    <section class="faqs-section account" style="display:none">
         <div class="overlay pt-120 pb-120">
             <div class="container wow fadeInUp">
                 <div class="row d-flex justify-content-center">

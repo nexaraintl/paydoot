@@ -10,7 +10,7 @@
                             <div class="main-content">
                                 <div class="top-area section-text justify-content-center">
                                     <h4 class="sub-title">Simple. Transparent. Secure</h4>
-                                    <h1 class="title">Banking Solutions</h1>
+                                    <h1 class="title">Paydoot Solutions</h1>
                                     <p class="xlr">Products and services designed to help you reach your financial goals.</p>
                                 </div>
                                 <div class="bottom-area">
@@ -23,7 +23,7 @@
                 </div>
             </div>
         </div>
-        <div class="partner">
+        <div class="partner" style="display:none">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-3 col-3">
@@ -79,23 +79,30 @@
                             <span class="head-icon d-flex justify-content-center align-items-center">
                                 <img src="assets/images/icon/notification.png" alt="icon">
                             </span>
-                            <h5 class="sub-title">Smart Banking</h5>
+                            <h5 class="sub-title">Smart Utility bill payment </h5>
                             <h2 class="title">Real time Notifications</h2>
-                            <p>Your customer stay informed in real time with everything that’s happening on his account:
-                                payments, transfer, advice. Get visibility on your customers' flows to anticipate their
-                                needs.</p>
+                            <p>
+                                Experience the future of seamless, secure, and instant digital transactions. 
+                                Paydoot empowers everyone from individuals to large corporations with innovative financial solutions.
+                            </p>
                             <ul class="list">
                                 <li class="list-item d-flex align-items-center">
                                     <span class="check d-flex align-items-center justify-content-center">
                                         <img src="assets/images/icon/check.png" alt="icon">
                                     </span>
-                                    <span>Cards that work all across the world.</span>
+                                    <span>Our services that work all across the india.</span>
                                 </li>
                                 <li class="list-item d-flex align-items-center ">
                                     <span class="check d-flex align-items-center justify-content-center">
                                         <img src="assets/images/icon/check.png" alt="icon">
                                     </span>
                                     <span>No ATM fees. No minimum balance. No overdrafts.</span>
+                                </li>
+                                <li class="list-item d-flex align-items-center ">
+                                    <span class="check d-flex align-items-center justify-content-center">
+                                        <img src="assets/images/icon/check.png" alt="icon">
+                                    </span>
+                                    <span>Instant Confirmation</span>
                                 </li>
                             </ul>
                         </div>
@@ -127,9 +134,9 @@
                                 <img src="assets/images/icon/sheled.png" alt="icon">
                             </span>
                             <h5 class="sub-title">Safe Investments</h5>
-                            <h2 class="title">The Better Way to Save & Invest</h2>
-                            <p>PayDoot helps over 2 million customers achieve their financial goals by helping them save
-                                and invest with ease. Put that extra cash to use without putting it at risk with PayDoot.
+                            <h2 class="title">We at Paydoot</h2>
+                            <p>
+                                Your Gateway to Smarter Payments
                             </p>
                             <ul class="list">
                                 <li class="list-item d-flex align-items-center">
@@ -144,6 +151,19 @@
                                     </span>
                                     <span>Highest Returns on your investments</span>
                                 </li>
+                                <li class="list-item d-flex align-items-center ">
+                                    <span class="check d-flex align-items-center justify-content-center">
+                                        <img src="assets/images/icon/check.png" alt="icon">
+                                    </span>
+                                    <span>Utility Bill Payments</span>
+                                </li>
+                                <li class="list-item d-flex align-items-center ">
+                                    <span class="check d-flex align-items-center justify-content-center">
+                                        <img src="assets/images/icon/check.png" alt="icon">
+                                    </span>
+                                    <span>FASTag Recharge</span>
+                                </li>
+                                
                             </ul>
                         </div>
                     </div>
@@ -154,13 +174,13 @@
     <!-- Features In end -->
 
     <!-- Solutions Business In start -->
-    <section class="solutions-business">
+    <section class="solutions-business" style="display:none">
         <div class="overlay pt-120">
             <div class="container wow fadeInUp">
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
                         <div class="section-header text-center">
-                            <h5 class="sub-title">Open your account from anywhere in the world</h5>
+                            <h5 class="sub-title">Open your account from anywhere in the india</h5>
                             <h2 class="title">Solutions for Every Business Need.</h2>
                             <p>Power up your business with a full-stack online bank account that fits your needs.</p>
                         </div>
@@ -205,7 +225,7 @@
                             </div>
                             <div class="content">
                                 <h5>Business Account</h5>
-                                <p>Take charge of your business banking with a business bank account. Services including
+                                <p>Take charge of your business Utility bill payment  with a business bank account. Services including
                                     virtual cards, team management and more.</p>
                                 <a href="register.php" class="btn-arrow">Open Account
                                     <img src="assets/images/icon/arrow-right.png" alt="arrow">
@@ -229,8 +249,8 @@
                             <span class="head-icon d-flex justify-content-center align-items-center">
                                 <img src="assets/images/icon/sheled.png" alt="icon">
                             </span>
-                            <h5 class="sub-title">Banking at Your Fingertips</h5>
-                            <h2 class="title">Your banking experience anytime, anywhere</h2>
+                            <h5 class="sub-title">Utility bill payment  at Your Fingertips</h5>
+                            <h2 class="title">Your Utility bill payment  experience anytime, anywhere</h2>
                             <p>Get your money moving with our simple to use, accessible mobile app. As good as a bank
                                 branch within your phone!</p>
                             <ul class="list">
@@ -244,13 +264,55 @@
                                     <span class="check d-flex align-items-center justify-content-center">
                                         <img src="assets/images/icon/check.png" alt="icon">
                                     </span>
-                                    <span>Credit card payments and Order food</span>
+                                    <span>Credit card payments</span>
+                                </li>
+                                <li class="list-item d-flex align-items-center ">
+                                    <span class="check d-flex align-items-center justify-content-center">
+                                        <img src="assets/images/icon/check.png" alt="icon">
+                                    </span>
+                                    <span>Agent Collection</span>
+                                </li>
+                                <li class="list-item d-flex align-items-center ">
+                                    <span class="check d-flex align-items-center justify-content-center">
+                                        <img src="assets/images/icon/check.png" alt="icon">
+                                    </span>
+                                    <span>Broadband Postpaid</span>
+                                </li>
+                                <li class="list-item d-flex align-items-center ">
+                                    <span class="check d-flex align-items-center justify-content-center">
+                                        <img src="assets/images/icon/check.png" alt="icon">
+                                    </span>
+                                    <span>Cable TV</span>
+                                </li>
+                                <li class="list-item d-flex align-items-center ">
+                                    <span class="check d-flex align-items-center justify-content-center">
+                                        <img src="assets/images/icon/check.png" alt="icon">
+                                    </span>
+                                    <span>Clubs and Association</span>
+                                </li>
+                                <li class="list-item d-flex align-items-center ">
+                                    <span class="check d-flex align-items-center justify-content-center">
+                                        <img src="assets/images/icon/check.png" alt="icon">
+                                    </span>
+                                    <span>Donation</span>
+                                </li>
+                                <li class="list-item d-flex align-items-center ">
+                                    <span class="check d-flex align-items-center justify-content-center">
+                                        <img src="assets/images/icon/check.png" alt="icon">
+                                    </span>
+                                    <span>DTH</span>
+                                </li>
+                                <li class="list-item d-flex align-items-center ">
+                                    <span class="check d-flex align-items-center justify-content-center">
+                                        <img src="assets/images/icon/check.png" alt="icon">
+                                    </span>
+                                    <span>Education</span>
                                 </li>
                             </ul>
                         </div>
-                        <div class="button-group d-flex align-items-center flex-wrap">
-                            <a href="javascript:void(0)"><img src="assets/images/google-play.png" alt="image"></a>
-                            <a href="javascript:void(0)"><img src="assets/images/app-store.png" alt="image"></a>
+                        <div class="button-group d-flex align-items-center flex-wrap" >
+                            <a href="javascript:void(0)" style="display:none;"><img src="assets/images/google-play.png" alt="image"></a>
+                            <a href="javascript:void(0)" style="display:none;"><img src="assets/images/app-store.png" alt="image"></a>
                         </div>
                     </div>
                     <div class="col-lg-6 text-end">
@@ -265,7 +327,7 @@
     <!-- App In end -->
 
     <!-- Card In start -->
-    <section class="card-section">
+    <section class="card-section" style="display:none;">
         <div class="overlay pt-120 pb-120">
             <div class="container wow fadeInUp">
                 <div class="row justify-content-end">
@@ -458,7 +520,7 @@
     <!-- Call to action In end -->
 
     <!-- Financial Planning In start -->
-    <section class="financial-planning">
+    <section class="financial-planning" style="display:none">
         <div class="overlay pt-120 pb-120">
             <div class="container wow fadeInUp">
                 <div class="row d-flex justify-content-center">
@@ -582,7 +644,7 @@
     <!-- Financial Planning In end -->
 
     <!-- Personalized In start -->
-    <section class="personalized">
+    <section class="personalized" style="display:none;">
         <div class="overlay">
             <div class="container wow fadeInUp">
                 <div class="row d-flex justify-content-between">
@@ -774,7 +836,7 @@
                             </div>
                             <div class="content">
                                 <a href="blog-single.php">
-                                    <h5>Digital Banking Services</h5>
+                                    <h5>Digital Utility bill payment  Services</h5>
                                 </a>
                                 <div class="info">
                                     <div class="item cus-bor d-flex align-items-center">
@@ -804,7 +866,7 @@
                             </div>
                             <div class="content">
                                 <a href="blog-single.php">
-                                    <h5>Mobile Banking at a Glance</h5>
+                                    <h5>Mobile Utility bill payment  at a Glance</h5>
                                 </a>
                                 <div class="info">
                                     <div class="item cus-bor d-flex align-items-center">
@@ -834,7 +896,7 @@
     <!-- Our Latest Articles In end -->
 
     <!-- FAQs In start -->
-    <section class="faqs-section">
+    <section class="faqs-section" style="display:none;">
         <div class="overlay pt-120 pb-120">
             <div class="container wow fadeInUp">
                 <div class="row d-flex justify-content-center">
@@ -924,7 +986,7 @@
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapsesix"
                                             aria-expanded="false" aria-controls="collapsesix">
-                                            What is required to use Digital Banking?
+                                            What is required to use Digital Utility bill payment ?
                                         </button>
                                     </h5>
                                     <div id="collapsesix" class="accordion-collapse collapse"
@@ -941,7 +1003,7 @@
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapsesaven"
                                             aria-expanded="false" aria-controls="collapsesaven">
-                                            Is digital banking secure?
+                                            Is digital Utility bill payment  secure?
                                         </button>
                                     </h5>
                                     <div id="collapsesaven" class="accordion-collapse collapse"
@@ -970,7 +1032,7 @@
                     <div class="get-content">
                         <div class="section-text">
                             <h3 class="title">Ready to get started?</h3>
-                            <p>It only takes a few minutes to register your FREE PayDoot account.</p>
+                            <p>Explore our products or create your Paydoot account today!</p>
                         </div>
                         <a href="register.php" class="cmn-btn">Open an Account</a>
                         <img src="assets/images/get-start.png" alt="images">

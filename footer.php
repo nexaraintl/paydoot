@@ -30,9 +30,10 @@
                         <h5>Useful Links</h5>
                         <ul class="footer-link">
                             <li><a href="product.php">Products</a></li>
-                            <li><a href="business-loan.php">Business</a></li>
+                            <li><a href="service.php">Servicess</a></li>
+                            <!-- <li><a href="business-loan.php">Business</a></li>
                             <li><a href="affiliate.php">Individual</a></li>
-                            <li><a href="blog-list.php">Partner</a></li>
+                            <li><a href="blog-list.php">Partner</a></li> -->
                         </ul>
                     </div>
                 </div>
@@ -42,8 +43,8 @@
                         <ul class="footer-link">
                             <li><a href="mailto:info@nexaraintl.com">info@nexaraintl.com</a></li>
                             <li><a href="#">Contact Us</a></li>
-                            <li><a href="contact.php">Contact Us</a></li>
-                            <li><a class="nav-link" href="blog.php">News & Media</a></li>
+                            <!-- <li><a href="contact.php">Contact Us</a></li> -->
+                            <!-- <li><a class="nav-link" href="blog.php">News & Media</a></li> -->
                         </ul>
                     </div>
                 </div>
@@ -64,8 +65,8 @@
                 <div class="col-12">
                     <div class="footer-bottom">
                         <div class="left">
-                            <p> Copyright © 2023 Paydoot Payments Ltd. All Rights Reserved.<a href="index.php">PayDoot</a> | Designed by
-                                <a href="https://nexaraintl.com/">NexaraIntl</a>
+                            <p> Copyright © 2025 <a href="index.php">PayDoot</a> | Designed by
+                                <a href="https://nexaraintl.com/">NexaraIntl</a> All Rights Reserved.
                             </p>
                         </div>
                         <div class="right">

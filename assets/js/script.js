@@ -17,6 +17,8 @@ $(function ($) {
                      title: "Account created successfully!",
                      icon: "success",
                      draggable: true
+                  }).then(function() {
+                     window.location.href = '../';  
                   });
                }
             });

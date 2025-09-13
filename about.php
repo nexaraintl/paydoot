@@ -34,10 +34,14 @@
                     <div class="col-lg-6">
                         <div class="text-area">
                             <h5 class="sub-title">About Us</h5>
-                            <h2 class="title">Your ally in achieving ambition beyond borders</h2>
+                            <h2 class="title">The Paydoot Journey: Democratizing Digital Payments</h2>
                             <p>We understand that with global ambition, comes global challenges, and we are here to
                                 bridge the gap by offering seamless cross-border financial services. Consider us your
                                 friendly digital guide to all things finance, helping you make the most of your money.
+                            </p>
+                            <p>
+                                Paydoot was born from a vision to create a truly inclusive and indigenous digital payments ecosystem. 
+                                Our mission is to provide a robust, accessible, and innovative payment platform that caters to the diverse needs of a modern, digital India. We are committed to driving financial inclusion by offering solutions that are secure, user-friendly, and widely accepted. At Paydoot, we believe in empowering every citizen and business to thrive in the digital economy.
                             </p>
                         </div>
                         <div class="row cus-mar">
@@ -53,8 +57,8 @@
                             <div class="col-xl-4 col-md-4">
                                 <div class="count-content text-center">
                                     <div class="count-number ">
-                                        <h4 class="counter">250</h4>
-                                        <h4 class="static">M</h4>
+                                        <h4 class="counter">500</h4>
+                                        <h4 class="static"></h4>
                                     </div>
                                     <p>Monthly active users</p>
                                 </div>
@@ -62,8 +66,8 @@
                             <div class="col-xl-4 col-md-4">
                                 <div class="count-content text-center">
                                     <div class="count-number ">
-                                        <h4 class="counter">100</h4>
-                                        <h4 class="static">K</h4>
+                                        <h4 class="counter">10</h4>
+                                        <h4 class="static"></h4>
                                     </div>
                                     <p>New Users per week</p>
                                 </div>
@@ -84,7 +88,7 @@
     <!-- About Us In end -->
 
     <!-- Our core values In start -->
-    <section class="our-core-values">
+    <section class="our-core-values" style="display:none">
         <div class="overlay pt-120 pb-120">
             <div class="container wow fadeInUp">
                 <div class="row justify-content-center">
@@ -141,7 +145,7 @@
     <!-- Our core values In end -->
 
     <!-- Map In start -->
-    <section class="map-section">
+    <section class="map-section" style="display:none">
         <div class="overlay pt-120 pb-120">
             <div class="container wow fadeInUp">
                 <div class="row justify-content-center">
@@ -189,7 +193,7 @@
     <!-- Map In end -->
 
     <!-- Our journey In start -->
-    <section class="our-journey">
+    <section class="our-journey" style="display:none">
         <div class="overlay pt-120 pb-120">
             <div class="container wow fadeInUp">
                 <div class="row justify-content-center">
@@ -285,7 +289,7 @@
     <!-- Our journey In end -->
 
     <!-- Our Amazing Team In start -->
-    <section class="our-team">
+    <section class="our-team" style="display:none">
         <div class="overlay pt-120 pb-120">
             <div class="container wow fadeInUp">
                 <div class="row justify-content-center">
@@ -806,8 +810,8 @@
                 <div class="row justify-content-center">
                     <div class="col-xl-9 col-lg-10">
                         <div class="section-header text-center">
-                            <h5 class="sub-title">Current Positions</h5>
-                            <h2 class="title">Unlock Your Career at PayDoot</h2>
+                            <h5 class="sub-title">Features/Benefits </h5>
+                            <h2 class="title">Unlock Your benefits at PayDoot</h2>
                             <p>Grow with us and take your professional life to the next level.</p>
                         </div>
                     </div>
@@ -815,42 +819,40 @@
                 <div class="row mb-60">
                     <div class="col-lg-6 col-md-6">
                         <div class="single-item">
-                            <p class="mdr">Management</p>
-                            <h5>Office Manager</h5>
-                            <p>Proin sed eros ac libero auctor egestas. Duis maximus imperdiet ultricies. Donec finibus diam risus</p>
-                            <a href="career-single.php" class="cmn-btn">Apply Now</a>
+                            <p class="mdr">Secure & Reliant</p>
+                            <h5>Uncompromised Security</h5>
+                            <p>Enjoy peace of mind with our multi-layered, advanced security protocols designed to protect every transaction you make.</p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6">
                         <div class="single-item">
-                            <p class="mdr">Developer</p>
-                            <h5>Senior Backend Developer</h5>
-                            <p>Proin sed eros ac libero auctor egestas. Duis maximus imperdiet ultricies. Donec finibus diam risus</p>
-                            <a href="career-single.php" class="cmn-btn">Apply Now</a>
+                            <p class="mdr">Wide Acceptance</p>
+                            <h5>Accepted Everywhere</h5>
+                            <p>Use Paydoot at millions of stores, online websites, and apps across the country and beyond. Your preferred way to pay.</p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6">
                         <div class="single-item">
-                            <p class="mdr">Developer</p>
-                            <h5>Jr Frontend Developer</h5>
-                            <p>Proin sed eros ac libero auctor egestas. Duis maximus imperdiet ultricies. Donec finibus diam risus</p>
-                            <a href="career-single.php" class="cmn-btn">Apply Now</a>
+                            <p class="mdr">Innovative Solutions</p>
+                            <h5>Innovative Solutions</h5>
+                            <p>From UPI to NFC and beyond, we leverage the latest technology to make your payments faster, simpler, and more intuitive.</p>
+                            <!-- <a href="career-single.php" class="cmn-btn">Apply Now</a> -->
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6">
                         <div class="single-item">
-                            <p class="mdr">Design</p>
-                            <h5>UI/UX and Product Designer</h5>
-                            <p>Proin sed eros ac libero auctor egestas. Duis maximus imperdiet ultricies. Donec finibus diam risus</p>
-                            <a href="career-single.php" class="cmn-btn">Apply Now</a>
+                            <p class="mdr">For Every Need</p>
+                            <h5>All-in-One Platform</h5>
+                            <p>Whether you're shopping, traveling, or managing business expenses, Paydoot has a tailored product for your unique needs.</p>
+                            <!-- <a href="career-single.php" class="cmn-btn">Apply Now</a> -->
                         </div>
                     </div>
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="bottom-item">
-                            <h3 class="title">Can´t find the perfect position?</h3>
-                            <p>Send us an email anyways! We will save your resume for next time a relevant position opens.We're always looking for talent</p>
+                            <h3 class="title">Can´t find the perfect service?</h3>
+                            <p>Send us an email anyways! We're always ready to support</p>
                             <a href="contact.php" class="cmn-btn">Contact Us</a>
                         </div>
                     </div>
@@ -868,7 +870,7 @@
                     <div class="get-content">
                         <div class="section-text">
                             <h3 class="title">Ready to get started?</h3>
-                            <p>It only takes a few minutes to register your FREE PayDoot account.</p>
+                            <p>Explore our products or create your Paydoot account today!</p>
                         </div>
                         <a href="register.php" class="cmn-btn">Open an Account</a>
                         <img src="assets/images/get-start.png" alt="images">

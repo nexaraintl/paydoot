@@ -8,13 +8,13 @@
                     <div class="row justify-content-start">
                         <div class="col-lg-7 col-md-10">
                             <div class="main-content">
-                                <h1>Blog Single</h1>
+                                <h1>News and Media</h1>
                                 <div class="breadcrumb-area">
                                     <nav aria-label="breadcrumb">
                                         <ol class="breadcrumb d-flex align-items-center">
                                             <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                                            <li class="breadcrumb-item"><a href="javascript:void(0)">Blog</a></li>
-                                            <li class="breadcrumb-item active" aria-current="page">Blog Single</li>
+                                            <!-- <li class="breadcrumb-item"><a href="javascript:void(0)">News</a></li> -->
+                                            <li class="breadcrumb-item active" aria-current="page">News</li>
                                         </ol>
                                     </nav>
                                 </div>
@@ -33,24 +33,7 @@
             <div class="container wow fadeInUp">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-10">
-                                <div class="blog-contant mb-60 text-center">
-                                    <h2>5 Tips to choose the right auto loan to buy your next dream car</h2>
-                                    <div class="info d-flex justify-content-center align-items-center">
-                                        <div class="item cus-bor d-flex align-items-center">
-                                            <span class="xlr">Loan</span>
-                                        </div>
-                                        <div class="item d-flex align-items-center">
-                                            <span class="xlr">December 19,2021</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="img-area-top">
-                            <img src="assets/images/blog-single-img-1.png" alt="images">
-                        </div>
+                        
                         <div class="contant-top-area">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10">

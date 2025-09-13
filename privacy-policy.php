@@ -13,7 +13,6 @@
                                     <nav aria-label="breadcrumb">
                                         <ol class="breadcrumb d-flex align-items-center">
                                             <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                                            <li class="breadcrumb-item"><a href="javascript:void(0)">Pages</a></li>
                                             <li class="breadcrumb-item active" aria-current="page">Privacy Policy</li>
                                         </ol>
                                     </nav>
@@ -35,29 +34,71 @@
                     <div class="col-lg-10">
                         <div class="top-wrapper">
                             <h4>We're always looking for new ways to provide privacy for our customers.</h4>
-                            <p>Id ipsum mi tempor eget. Pretium consectetur scelerisque blandit habitasse non ullamcorper enim, diam quam id et, tempus massa. Sed nam vulputate pellentesque quis. Varius a, nunc faucibus proin elementum id odio auctor.
-                                Nunc, suspendisse consequat libero, pharetra tellus vulputate auctor venenatis tortor non rhoncus at duis. Pharetra ipsum mauris integer sit feugiat.</p>
-                            <ul>
-                                <li>— Blandit dignissim nulla varius tristique a sed integer ut tempor.</li>
-                                <li>— Augue interdum semper bibendum amet sed.</li>
-                                <li>— Dis in at ultricies tortor sit tellus.</li>
-                                <li>— Habitant ornare aenean maecenas pretium</li>
-                            </ul>
-                            <p>Eget purus aenean sit risus. Arcu, aliquam eget et viverra risus purus. Commodo fames tristique dui pharetra elit aliquet morbi. Eget consectetur risus nunc lorem sit consequat aliquet. Dolor velit consectetur etiam scelerisque. Integer interdum sodales scelerisque diam massa quam sit quis. Sed et dui a nam pulvinar. Tristique justo, donec lectus vitae, cursus ligula ridiculus lacus, tincidunt. Diam dictumst faucibus dui aliquet aenean nascetur feugiat leo. Etiam dignissim orci dignissim vitae.</p>
+                            <p> 
+                                PayDoot (“we,” “our,” “us”) values your trust and is committed to protecting your personal information. 
+                                This Privacy Policy explains how we collect, use, and safeguard your information when you use our financial services.
+                            </p>
+
                             <div class="safe-data">
-                                <h4>Your data is safe with us, we will not share any information with external sources.</h4>
-                                <p>Blandit dignissim nulla varius tristique a sed integer ut tempor. Augue interdum semper bibendum amet sed. Dis in at ultricies tortor sit tellus. Habitant ornare aenean maecenas pretium, dui ullamcorper quis. Egestas viverra et id aliquet faucibus rhoncus a. Sollicitudin nisl nulla tempor pretium lorem at mauris faucibus pulvinar.</p>
+                                <h4>Information We Collect</h4>
+                                <p>Personal Information: name, contact details (phone number, email, address), identification documents where required by law.</p>
+                                <p>Financial Information: business details, payment records, and financial data provided for advisory or consulting purposes.</p>
+                                <p>Usage Information: interactions with our website and services.</p>
+                            </div>
+
+                            <div class="safe-data">
+                                <h4>How We Use Your Informationy</h4>
+                                <p>Provide financial consultancy, advisory, and related services.</p>
+                                <p> Comply with legal and regulatory obligations (including KYC/AML checks where applicable).</p>
+                                <p>Communicate with you regarding updates, services, and transactions.</p>
+                                <p>Improve our website and services.</p>
+                            </div>
+
+                            <div class="safe-data">
+                                <h4>Sharing of Information</h4>
+                                <p>We do not sell or rent your data.</p>
+                                <p>Information may be shared with trusted partners, auditors, or regulators strictly for compliance or service delivery purposes</p>
+                                <p>Disclosure may be required by law, regulation, or legal process.</p>
+                            </div>
+
+                            <div class="safe-data">
+                                <h4>Data Security</h4>
+                                <p>We implement industry-standard safeguards to protect your data from unauthorized access, misuse, or disclosure.</p>
+                            </div>
+
+                            <div class="safe-data">
+                                <h4>Data Retention</h4>
+                                <p>We retain your data only as long as necessary for service delivery and regulatory compliance.</p>
+                            </div>
+
+                            <div class="safe-data">
+                                <h4>Your Rights</h4>
+                                <p>You may have the right to:</p>
                                 <ul>
-                                    <li>Eget purus aenean sit risus. Arcu, aliquam eget et viverra risus purus. Commodo fames tristique dui pharetra elit aliquet morbi.</li>
-                                    <li>Eget consectetur risus nunc lorem sit consequat aliquet. Dolor velit consectetur etiam scelerisque.</li>
-                                    <li>Integer interdum sodales scelerisque diam massa quam sit quis. Sed et dui a nam pulvinar. Tristique justo, donec lectus vitae, cursus ligula ridiculus lacus, tincidunt.</li>
-                                    <li>Diam dictumst faucibus dui aliquet aenean nascetur feugiat leo. Etiam dignissim.</li>
-                                    <li> Aliquam eget et viverra risus purus. Commodo fames tristique dui pharetra elit aliquet morbi.</li>
+                                    <li>Access, correct, or delete your personal information.</li>
+                                    <li>Object to or restrict certain processing.</li>
+                                    <li>Request data portability.</li>
                                 </ul>
                             </div>
-                            <div class="cookies">
-                                <h4>Cookies and tracking</h4>
-                                <p>Consequat mauris nunc congue nisi. Cursus metus aliquam eleifend mi in nulla. Dignissim cras tincidunt lobortis feugiat vivamus. Blandit aliquam etiam erat velit. Sapien faucibus et molestie ac. Ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae. Id cursus metus aliquam eleifend mi in nulla posuere sollicitudin.</p>
+
+                            <div class="safe-data">
+                                <h4>International Compliance</h4>
+                                <p>This Privacy Policy complies with global standards, including GDPR (Europe), CCPA (California), and other applicable laws.</p>
+                            </div>
+
+                            <div class="safe-data">
+                                <h4>Updates</h4>
+                                <p>We may update this policy from time to time. The latest version will always be available on our website.</p>
+                            </div>
+
+                            <div class="safe-data">
+                                <h4>Contact </h4>
+                                <p>PayDoot.</p>
+                                <p>Email: [Insert Contact Email]</p>
+                                <p>Phone: [9172727232]</p>
+                            </div>
+                            <div class="safe-data">
+                                Effective Date: 01/01/2025  and Last Updated: 19/08/2025
                             </div>
                         </div>
                     </div>
@@ -75,7 +116,7 @@
                     <div class="get-content">
                         <div class="section-text">
                             <h3 class="title">Ready to get started?</h3>
-                            <p>It only takes a few minutes to register your FREE Bankio account.</p>
+                            <p>Explore our products or create your Paydoot account today!.</p>
                         </div>
                         <a href="register.php" class="cmn-btn">Open an Account</a>
                         <img src="assets/images/get-start.png" alt="images">

@@ -8,9 +8,9 @@
                         <div class="col-lg-7">
                             <div class="main-content">
                                 <div class="section-text">
-                                    <h5 class="sub-title">Build the future You See for Yourself</h5>
-                                    <h2 class="title">Enjoy The Freedom To Dream Big</h2>
-                                    <p>Fulfil your dreams with our loan products.Money shouldn’t just work for some of us. It should work for all of us.</p>
+                                    <h5 class="sub-title">Our Products</h5>
+                                    <h2 class="title">Discover the Paydoot Suite of Products</h2>
+                                    <p>Explore our comprehensive range of payment solutions designed for every segment of the economy.</p>
                                 </div>
                                 <a href="register.php" class="cmn-btn">Apply Now</a>
                             </div>
@@ -27,15 +27,15 @@
         <div class="overlay pt-120 pb-120">
             <div class="container wow fadeInUp">
                 <div class="row d-flex justify-content-center">
-                    <div class="col-xl-6 col-lg-5">
+                    <div class="col-xl-12 col-lg-12">
                         <div class="section-text">
                             <h5 class="sub-title">Financial Planning</h5>
                             <h2 class="title">Let's plan your finances the right way</h2>
                             <p>Lending that doesn't weigh you down.We know how hard is it to start something new, that’s why we have the perfect plan for you.</p>
                         </div>
-                        <a href="register.php" class="cmn-btn">Apply for a loan</a>
+                        <a href="register.php" class="cmn-btn">Apply for an account</a>
                     </div>
-                    <div class="col-xl-6 col-lg-7">
+                    <div class="col-xl-12 col-lg-12">
                         <div class="row cus-mar">
                             <div class="col-md-6 col-sm-6">
                                 <div class="plan-box">
@@ -43,19 +43,14 @@
                                         <img src="assets/images/icon/loan-1.png" alt="icon" class="active">
                                         <img src="assets/images/icon/loan-11.png" alt="icon" class="alt">
                                     </div>
-                                    <a href="home-loan.php"><h5>Home Loans</h5></a>
+                                    <a><h5>Utility Bill Payments</h5></a>
                                     <ul class="list">
+                                        
                                         <li class="list-item d-flex align-items-center">
                                             <span class="check d-flex align-items-center justify-content-center">
                                                 <img src="assets/images/icon/check.png" alt="icon">
                                             </span>
-                                            <span>Lowest interest rates</span>
-                                        </li>
-                                        <li class="list-item d-flex align-items-center">
-                                            <span class="check d-flex align-items-center justify-content-center">
-                                                <img src="assets/images/icon/check.png" alt="icon">
-                                            </span>
-                                            <span>Fast Loan Processing</span>
+                                            <span>User-friendly retailer website that simplifies the process of Utility bill payments using Bharat Bill Payment System (BBPS)</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -66,19 +61,25 @@
                                         <img src="assets/images/icon/loan-2.png" alt="icon" class="active">
                                         <img src="assets/images/icon/loan-22.png" alt="icon" class="alt">
                                     </div>
-                                    <a href="car-loan.php"><h5>Car Loans</h5></a>
+                                    <a><h5>FASTag Recharge</h5></a>
                                     <ul class="list">
                                         <li class="list-item d-flex align-items-center">
                                             <span class="check d-flex align-items-center justify-content-center">
                                                 <img src="assets/images/icon/check.png" alt="icon">
                                             </span>
-                                            <span>Competitive rates</span>
+                                            <span>Recharge your account easily online through PayDoot</span>
                                         </li>
                                         <li class="list-item d-flex align-items-center">
                                             <span class="check d-flex align-items-center justify-content-center">
                                                 <img src="assets/images/icon/check.png" alt="icon">
                                             </span>
                                             <span>Quick Easy</span>
+                                        </li>
+                                        <li class="list-item d-flex align-items-center">
+                                            <span class="check d-flex align-items-center justify-content-center">
+                                                <img src="assets/images/icon/check.png" alt="icon">
+                                            </span>
+                                            <span> FASTag usage on your trucks, cars, trailers, containers will save time on tolls in India.</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -89,19 +90,25 @@
                                         <img src="assets/images/icon/loan-3.png" alt="icon" class="active">
                                         <img src="assets/images/icon/loan-33.png" alt="icon" class="alt">
                                     </div>
-                                    <a href="educations-loan.php"><h5>Education Loans</h5></a>
+                                    <a><h5>The Future of Bill Payment</h5></a>
                                     <ul class="list">
                                         <li class="list-item d-flex align-items-center">
                                             <span class="check d-flex align-items-center justify-content-center">
                                                 <img src="assets/images/icon/check.png" alt="icon">
                                             </span>
-                                            <span>Pay back conveniently</span>
+                                            <span>Streamline your payments with BBPS(Bharat Bill Payment System)</span>
                                         </li>
                                         <li class="list-item d-flex align-items-center">
                                             <span class="check d-flex align-items-center justify-content-center">
                                                 <img src="assets/images/icon/check.png" alt="icon">
                                             </span>
-                                            <span>Fast Loan Processing</span>
+                                            <span>BBPS offers a comprehensive and streamlined solution for all your bill payment needs.</span>
+                                        </li>
+                                        <li class="list-item d-flex align-items-center">
+                                            <span class="check d-flex align-items-center justify-content-center">
+                                                <img src="assets/images/icon/check.png" alt="icon">
+                                            </span>
+                                            <span>Integrated online platform that allows you to make bill payments conveniently</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -112,19 +119,20 @@
                                         <img src="assets/images/icon/loan-4.png" alt="icon" class="active">
                                         <img src="assets/images/icon/loan-44.png" alt="icon" class="alt">
                                     </div>
-                                    <a href="business-loan.php"><h5>Business Loans</h5></a>
+                                    <a><h5>DTH Recharge Service</h5></a>
                                     <ul class="list">
+                                        
                                         <li class="list-item d-flex align-items-center">
                                             <span class="check d-flex align-items-center justify-content-center">
                                                 <img src="assets/images/icon/check.png" alt="icon">
                                             </span>
-                                            <span>Easy Approvals</span>
+                                            <span>Support both prepaid and postpaid data cards.</span>
                                         </li>
                                         <li class="list-item d-flex align-items-center">
                                             <span class="check d-flex align-items-center justify-content-center">
                                                 <img src="assets/images/icon/check.png" alt="icon">
                                             </span>
-                                            <span>Full Assistance</span>
+                                            <span>Data card also called internet dongle, it is a small USB device which allows users to access internet.s</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -148,9 +156,9 @@
                     <div class="col-lg-6">
                         <div class="section-text">
                             <h2 class="title">Need a Personalized Solution?</h2>
-                            <p>All your needs covered with a full range of credit and debit cards.</p>
+                            <p>All your needs covered with a PayDoot. We provide innovative service allowing our customers to make their mobile recharge, bill payments and other different service providers at their convenience.</p>
                         </div>
-                        <a href="register.php" class="cmn-btn">Apply for a loan</a>
+                        <a href="register.php" class="cmn-btn">Apply for create account on Paydoot</a>
                     </div>
                 </div>
             </div>
@@ -159,7 +167,7 @@
     <!-- Personalized Solution In end -->
 
     <!-- FAQs In start -->
-    <section class="faqs-section">
+    <section class="faqs-section" style="display:none">
         <div class="overlay pt-120 pb-120">
             <div class="container wow fadeInUp">
                 <div class="row d-flex justify-content-center">
@@ -264,7 +272,7 @@
                     <div class="get-content">
                         <div class="section-text">
                             <h3 class="title">Ready to get started?</h3>
-                            <p>It only takes a few minutes to register your FREE Bankio account.</p>
+                            <p>Explore our products or create your Paydoot account today!</p>
                         </div>
                         <a href="register.php" class="cmn-btn">Open an Account</a>
                         <img src="assets/images/get-start.png" alt="images">
