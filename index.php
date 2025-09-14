@@ -96,12 +96,6 @@
                                     <span class="check d-flex align-items-center justify-content-center">
                                         <img src="assets/images/icon/check.png" alt="icon">
                                     </span>
-                                    <span>No ATM fees. No minimum balance. No overdrafts.</span>
-                                </li>
-                                <li class="list-item d-flex align-items-center ">
-                                    <span class="check d-flex align-items-center justify-content-center">
-                                        <img src="assets/images/icon/check.png" alt="icon">
-                                    </span>
                                     <span>Instant Confirmation</span>
                                 </li>
                             </ul>

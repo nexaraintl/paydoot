@@ -71,7 +71,8 @@
                         </div>
                         <div class="right">
                             <a href="privacy-policy.php" class="cus-bor">Privacy </a>
-                            <a href="terms-conditions.php">Terms &amp; Condition </a>
+                            <a href="terms-conditions.php" class="cus-bor">Terms &amp; Condition </a>
+                            <a href="refund_policy.php">Refund Policy </a>
                         </div>
                     </div>
                 </div>

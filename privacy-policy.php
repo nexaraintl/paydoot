@@ -94,8 +94,8 @@
                             <div class="safe-data">
                                 <h4>Contact </h4>
                                 <p>PayDoot.</p>
-                                <p>Email: [Insert Contact Email]</p>
-                                <p>Phone: [9172727232]</p>
+                                <p>Email: support@paydoot.com</p>
+                                <p>Phone: 9172727232</p>
                             </div>
                             <div class="safe-data">
                                 Effective Date: 01/01/2025  and Last Updated: 19/08/2025

@@ -158,7 +158,7 @@
                             <h2 class="title">Need a Personalized Solution?</h2>
                             <p>All your needs covered with a PayDoot. We provide innovative service allowing our customers to make their mobile recharge, bill payments and other different service providers at their convenience.</p>
                         </div>
-                        <a href="register.php" class="cmn-btn">Apply for create account on Paydoot</a>
+                        <a href="register.php" class="cmn-btn" style="display:none">Apply for create account on Paydoot</a>
                     </div>
                 </div>
             </div>
