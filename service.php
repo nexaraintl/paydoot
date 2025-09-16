@@ -27,25 +27,25 @@
     <!-- banner-section end -->
 
     <!-- Blog Content In start -->
-    <section class="latest-articles blog-contant">
+    <section class="latest-articles blog-contant" style="margin-top:-20%;margin-bottom:-15%">
         <div class="overlay pt-120 pb-120">
             <div class="container wow fadeInUp">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12" style="text-align:center">
                         <ul class="nav nav-tabs mb-60" role="tablist">
-                            <li class="nav-item" role="presentation">
-                                <button class="cmn-btn active" id="latest-tab" data-bs-toggle="tab" data-bs-target="#latest" type="button"
-                                    role="tab" aria-controls="latest" aria-selected="true">Business Services</button>
+                            <li class="nav-item" role="presentation" style="display:none">
+                                <button class="cmn-btn active center" id="latest-tab" data-bs-toggle="tab" data-bs-target="#latest" type="button"
+                                    role="tab" aria-controls="latest" aria-selected="true" >Business Services</button>
                             </li>
                             <li class="nav-item" role="presentation" style="display:none">
                                 <button class="cmn-btn" id="loan-tab" data-bs-toggle="tab" data-bs-target="#loan" type="button"
                                     role="tab" aria-controls="loan" aria-selected="false">Business Services</button>
                             </li>
-                            <li class="nav-item" role="presentation">
+                            <li class="nav-item" role="presentation" style="display:none">
                                 <button class="cmn-btn" id="loan-tab" data-bs-toggle="tab" data-bs-target="#loan" type="button"
                                     role="tab" aria-controls="loan" aria-selected="false">Personal Services</button>
                             </li>
-                            <li class="nav-item" role="presentation">
+                            <li class="nav-item" role="presentation" style="display:none">
                                 <button class="cmn-btn" id="credit-tab" data-bs-toggle="tab" data-bs-target="#credit" type="button"
                                     role="tab" aria-controls="credit" aria-selected="false">Partner Network</button>
                             </li>
@@ -60,9 +60,11 @@
                                         </div> -->
                                     
                                         <div class="overlay pt-120 pb-120">
-                                            <div class="container wow fadeInUp">
+                                            <h3>Business Services</h3>
+                                            <div class="container wow fadeInUp" style="margin-top:2%">
                                                 <div class="row justify-content-center">
                                                     <div class="col-xl-9 col-lg-10">
+                                                        
                                                         <div class="section-header text-center">
                                                             <h5 class="sub-title">Powering Growth for Businesses of All Sizes </h5>
                                                             <p>From small shops to large enterprises, accelerate your business growth with Paydoot's advanced acquiring solutions</p>
