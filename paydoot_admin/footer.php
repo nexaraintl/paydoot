@@ -8,7 +8,7 @@
       </p>
       <div class="justify-center max-md:flex max-md:w-full"></div>
       <ul class="flex gap-2 xxxl:gap-3">
-         <li>
+         <!-- <li>
             <a
                href="#"
                aria-label="social link"
@@ -31,10 +31,11 @@
                class="inline-flex rounded-full border border-primary p-1 text-primary duration-300 hover:bg-primary hover:text-n0 md:p-1.5 xxxl:p-2">
             <i class="lab la-skype"></i>
             </a>
-         </li>
+         </li> -->
          <li>
             <a
-               href="#"
+               href="https://www.instagram.com/paydoot/"
+               target="_blank"
                aria-label="social link"
                class="inline-flex rounded-full border border-primary p-1 text-primary duration-300 hover:bg-primary hover:text-n0 md:p-1.5 xxxl:p-2">
             <i class="lab la-instagram"></i>
@@ -42,7 +43,8 @@
          </li>
          <li>
             <a
-               href="#"
+               href="https://www.linkedin.com/company/paydoot"
+               target="_blank"
                aria-label="social link"
                class="inline-flex rounded-full border border-primary p-1 text-primary duration-300 hover:bg-primary hover:text-n0 md:p-1.5 xxxl:p-2">
             <i class="lab la-linkedin-in"></i>
