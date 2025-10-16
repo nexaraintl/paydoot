@@ -9,7 +9,7 @@
          Open an Account
          </button>
       </div>
-      <div class="grid grid-cols-1 gap-4 xxl:gap-6">
+      <div class="grid grid-cols-1 gap-4 xxl:gap-6" style="display:none">
          <!-- Payment account -->
          <div class="box col-span-12 lg:col-span-6">
             <div class="bb-dashed mb-4 flex flex-wrap items-center justify-between gap-4 pb-4 lg:mb-6 lg:pb-6">
@@ -1262,6 +1262,123 @@
             </div>
          </div>
       </div>
+      <div class="col-span-12">
+            <div class="box col-span-12 lg:col-span-6">
+               <div class="bb-dashed mb-4 flex flex-wrap items-center justify-between gap-4 pb-4 lg:mb-6 lg:pb-6">
+                  <h4 class="h4">Latest Users Created Account</h4>
+                  <div class="flex items-center gap-4" style="display:none">
+                     <form class="flex w-full min-w-[200px] items-center justify-between gap-3 rounded-[30px] border border-n30 bg-primary/5 p-1 focus-within:border-primary dark:border-n500 dark:bg-bg3 xxl:max-w-[319px]">
+                        <input type="text" placeholder="Search" class="w-full border-none bg-transparent py-1 text-sm ltr:pl-4 rtl:pr-4" />
+                        <button class="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-primary text-n0 lg:h-8 lg:w-8">
+                        <i class="las la-search text-lg"></i>
+                        </button>
+                     </form>
+                     <div class="flex items-center gap-3 whitespace-nowrap">
+                        <span>Sort By : </span>
+                        <select class="nc-select green !rounded-3xl">
+                           <option value="day">Last 15 Days</option>
+                           <option value="week">Last 1 Month</option>
+                           <option value="year">Last 6 Month</option>
+                        </select>
+                     </div>
+                  </div>
+               </div>
+               <div class="overflow-x-auto">
+                  <table class="select-all-table w-full whitespace-nowrap" id="transactionTable">
+                     <thead>
+                        <tr class="bg-secondary/5 dark:bg-bg3">
+                           
+                           <th class="min-w-[330px] cursor-pointer px-6 py-5 text-start">
+                              <div class="flex items-center gap-1">Name</div>
+                           </th>
+                           <th class="min-w-[120px] cursor-pointer py-5 text-start">
+                              <div class="flex items-center gap-1">Emaill</div>
+                           </th>
+                           <th class="min-w-[120px] cursor-pointer py-5 text-start">
+                              <div class="flex items-center gap-1">Mobile</div>
+                           </th>
+                           <th class="min-w-[120px] cursor-pointer py-5 text-start">
+                              <div class="flex items-center gap-1">Bank Name</div>
+                           </th>
+                           <th class="min-w-[120px] cursor-pointer py-5 text-start">
+                              <div class="flex items-center gap-1">Location</div>
+                           </th>
+                           <th class="cursor-pointer py-5 text-start">
+                              <div class="flex items-center gap-1">Status</div>
+                           </th>
+                           <!-- <th class="p-5 text-center">Action</th> -->
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <?php
+                            
+                           include("conn.php");
+                           $sql="SELECT * FROM `user`"; 
+                           $result=mysqli_query($conn,$sql);
+                           
+                           while($row=mysqli_fetch_assoc($result))
+                           {
+
+                           
+                        ?>
+                           <tr class="even:bg-secondary/5 dark:even:bg-bg3">
+                              <!-- <td class="px-6 text-start">
+                                 <input type="checkbox" class="accent-secondary" name="checkbox1" />
+                              </td> -->
+                              <td class="py-2">
+                                 <div class="flex items-center gap-3">
+                                    <img src="./assets/images/paypal.png" width="32" height="32" class="rounded-full" alt="payment medium icon" />
+                                    <div>
+                                       <p class="mb-1 font-medium"><?php echo $row["name"];?></p>
+                                       <span class="text-xs"><?php echo $row["created_date"];?></span>
+                                    </div>
+                                 </div>
+                              </td>
+                              <td class="py-2"><?php echo $row["email"];?></td>
+                              <td class="py-2"><?php echo $row["mobile"];?></td>
+                              <td class="py-2"><?php echo $row["bank_name"];?></td>
+                              <td class="py-2"><?php echo $row["branch_center"];?></td>
+                              <td class="py-2">
+                                 <?php
+                                    if($row["user_status"]=="Active"){?>
+                                      <span class="block w-28 rounded-[30px] border border-n30 bg-primary/10 py-2 text-center text-xs text-primary dark:border-n500 dark:bg-bg3 xxl:w-36"> <?php echo $row["user_status"];?></span>
+                                 <?php }elseif($row["user_status"]=="Deactivate"){?>
+                                    <span class="block w-28 rounded-[30px] border border-n30 bg-warning/10 py-2 text-center text-xs text-warning dark:border-n500 dark:bg-bg3 xxl:w-36"> <?php echo $row["user_status"];?></span>
+                                 <?php
+                                 }else{?>
+                                 <span class="block w-28 rounded-[30px] border border-n30 bg-error/10 py-2 text-center text-xs text-error dark:border-n500 dark:bg-bg3 xxl:w-36"> <?php echo $row["user_status"];?></span>
+                                 <?php
+                                 }?>
+                              </td>
+                              <td class="py-2" style="display:none">
+                                 <div class="flex justify-center">
+                                    <!-- Add your action elements here -->
+                                    <div class="relative">
+                                       <i class="las la-ellipsis-v horiz-option-btn cursor-pointer popover-button"></i>
+                                       <ul class="horiz-option popover-content">
+                                          <li>
+                                             <span> Edit </span>
+                                          </li>
+                                          <li>
+                                             <span> Print </span>
+                                          </li>
+                                          <li>
+                                             <span> Share </span>
+                                          </li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </td>
+                           </tr>
+                        <?php } ?>
+                     
+                     </tbody>
+                  </table>
+               </div>
+               
+            </div>
+         </div>
+
    </div>
 </main>
 
